@@ -1,0 +1,112 @@
+/* Quiz.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Quiz Container */
+  .quiz-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .question-container {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+    color: #34495e;
+  }
+  
+  /* Options */
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .option-button {
+    padding: 15px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .option-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+  }
+  
+  .option-button:active {
+    background-color: #1c5985;
+    transform: scale(1);
+  }
+  
+  /* Result Container */
+  .result-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .result-container h2 {
+    font-size: 2rem;
+    color: #27ae60;
+  }
+  
+  .result-container p {
+    font-size: 1.25rem;
+    margin: 20px 0;
+    color: #2c3e50;
+  }
+  
+  .result-container button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .result-container button:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+  }
+  
+  .result-container button:active {
+    background-color: #96281b;
+    transform: scale(1);
+  }
+  
